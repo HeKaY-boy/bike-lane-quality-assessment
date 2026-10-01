@@ -579,3 +579,61 @@ Raw data should be deleted after the course has been completed and the final gra
 - The report maximum is 8 pages.
 - Final submission is one ZIP archive.
 - Submission deadline: **October 4, 2026, 20:00**.
+
+
+
+RAW SENSOR DATA
+      │
+      ▼
+3.1 DATA PREPROCESSING
+      │
+      ├── Load Accelerometer
+      ├── Load Gravity
+      ├── Load Gyroscope
+      ├── Merge sensor data
+      ├── Data collection metadata
+      ├── Check missing values
+      ├── Check duplicate timestamps
+      ├── Check sampling frequency
+      └── Initial signal EDA
+      │
+      ▼
+3.2 FEATURE ENGINEERING & EXTRACTION
+      │
+      ├── 2-second windows
+      ├── 1-second step
+      ├── Mean / Std / Min / Max
+      ├── RMS
+      ├── Remove near-constant gravity features
+      ├── Correlation analysis
+      ├── Mutual Information
+      ├── RFE
+      └── 5 final candidate features
+      │
+      ▼
+3.3 SUPERVISED LEARNING
+      │
+      ├── k-NN → 93.05%
+      ├── Logistic Regression → 95.31%
+      ├── Decision Tree → 92.73%
+      └── SVM → 93.71%
+      │
+      ▼
+3.4 UNSUPERVISED LEARNING
+      │
+      ├── Agglomerative → 95.09%
+      ├── K-means → 92.50%
+      ├── Fuzzy C-Means → 91.63%
+      └── Gaussian Mixture → 93.80%
+      │
+      ▼
+3.5 MODEL COMPARISON
+      │
+      ├── Accuracy comparison
+      ├── Confusion matrices
+      └── Final model selection
+      │
+      ▼
+EXTERNAL DATASET
+      │
+      └── Final deployment
