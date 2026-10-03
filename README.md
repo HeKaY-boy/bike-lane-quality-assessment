@@ -35,9 +35,6 @@ The uploaded notebook records the following environment:
 | Matplotlib | 3.10.0 |
 | scikit-learn | 1.9.0, as printed in the saved notebook output; verify in the final environment |
 | scikit-fuzzy | 0.5.0 |
-| Jupyter Notebook | Version not recorded |
-
-The current code imports scikit-fuzzy for fuzzy clustering. The group confirmed version 0.5.0. Use only packages permitted in the course instruction sessions.
 
 ### Setup
 
